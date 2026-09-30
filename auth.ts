@@ -10,7 +10,7 @@ const prisma = new PrismaClient();
 
 export const config = {
   pages: {
-    singIn: "/sign-in",
+    signIn: "/sign-in",
     error: "/sign-in",
   },
   session: {
